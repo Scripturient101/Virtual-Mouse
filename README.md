@@ -27,9 +27,11 @@ This project presents a simple and effective method for hand gesture recognition
 
 # Change webcam image:
   Send RGB image to the Hand object, in the loop.
+  
   ![image](https://user-images.githubusercontent.com/81686454/123776395-e02f2680-d8ec-11eb-8bfc-3d8f9f7e2939.png)
 
 # To check the no of hands detected
+
   ![image](https://user-images.githubusercontent.com/81686454/123776460-f0470600-d8ec-11eb-9eae-c725911d3a96.png)
   
 # Steps to draw handLandmarks on the image display:
