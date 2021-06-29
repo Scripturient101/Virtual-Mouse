@@ -42,23 +42,20 @@ This project presents a simple and effective method for hand gesture recognition
   
 # Steps to calculate live FPS: 
   •	For calculating FPS, we will be keeping the record of the time when last frame processed and the end time when current frame processed. So, the processing time for one frame     will be time difference between current time and previous frame time.
-  
-    ![image](https://user-images.githubusercontent.com/81686454/123776764-3734fb80-d8ed-11eb-9543-adae877c6336.png)
-    
     So, fps at the current moment will be: 
     
-    ![image](https://user-images.githubusercontent.com/81686454/123776828-46b44480-d8ed-11eb-9a82-a63605f498e1.png)
-    
+   ![image](https://user-images.githubusercontent.com/81686454/123777790-2afd6e00-d8ee-11eb-89ec-2d0c93d15767.png)
+
   •	Since FPS will be always Integer, we will be converting FPS to integer and after that typecasting it to string because it will be easy and faster to display the string           using cv2.putText() on frame. Now with the help cv2.putText() method we will be printing the FPS on this frame.
   
-    ![image](https://user-images.githubusercontent.com/81686454/123776988-69def400-d8ed-11eb-96f1-f994e517ddff.png)
+   ![image](https://user-images.githubusercontent.com/81686454/123777827-3355a900-d8ee-11eb-8e45-77ca760adf28.png)
       
 # Steps to extract and use the values of points:
   •	Landmark gives (x,y). We have ID numbers already listed in correct order, to check the index number and get each ID of each landmark. Use enumerate to get the ID of the landmarks.
   •	x and y are not in pixels, but in ratio – so to convert in pixels it needs to be multiplied by the width and the height respectively.
   •	Print out each id along with the (x,y)
   
-    ![image](https://user-images.githubusercontent.com/81686454/123777190-9135c100-d8ed-11eb-93e0-b614bcd9916e.png)
+   ![image](https://user-images.githubusercontent.com/81686454/123777973-51230e00-d8ee-11eb-83aa-b05824230fd7.png)
 
 
 
